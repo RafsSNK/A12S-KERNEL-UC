@@ -1,12 +1,12 @@
 # Clone kernel repo
-$ git clone(https://github.com/RafsSNK/A12S-KERNEL-UC-EROFS.git kernel-a12s
-$ cd kernel-a12s
+$ git clone([https://https://github.com/RafsSnake/A12s_Kernel_UC.git Kernel-A12s
+$ cd Kernel-A12s
 
 # See all defconfig
 $ ls kernel/arch/arm64/configs
 
 # Export the defconfig
-$ export DEFCONFIG=RafsSNK_defconfig
+$ export DEFCONFIG=RafsSNK-a12snsxx_defconfig
 
 # Export LLVM path
 $ export PATH=/home/$(whoami)/toolchains/clang-r383902/bin:$PATH
